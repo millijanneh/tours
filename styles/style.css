@@ -12,7 +12,7 @@
 
 .welcome{
     height: 50%;
-    /* background-color: blue; */
+    background-color: blue;
 
 }
 
@@ -42,7 +42,7 @@
 
 #header-left{
     width: 50%;
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     display: flex;
     align-items: center;
     
@@ -66,12 +66,9 @@
     text-decoration: none;
 }
 
-aside{
-
-}
 
 #header-right{
-    /* background-color: aliceblue; */
+    background-color: aliceblue;
     width: 50%;
     
 }
