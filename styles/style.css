@@ -1,0 +1,95 @@
+
+
+/* the page starts here */
+
+
+/* header styles  */
+#site-header{
+    height: 600px;
+    background: rgb(85, 35,35);
+    
+}
+
+.welcome{
+    height: 50%;
+    /* background-color: blue; */
+
+}
+
+.welcome>h1{
+    font-style: italic;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 3em;
+}
+
+
+#header-nav ul{
+    display: block;
+    list-style: none;
+    
+}
+
+#header-nav ul li{
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+#header-main{
+    width: 100%;
+    display: flex;
+}
+
+#header-left{
+    width: 50%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    
+}
+
+#header-left nav{
+    margin-left: auto;
+    justify-content: space-around;
+
+}
+
+#header-left nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: -45%;
+    justify-content: space-around;
+}
+
+.left-li a{
+    padding-left: 2.5rem;
+    text-decoration: none;
+}
+
+aside{
+
+}
+
+#header-right{
+    /* background-color: aliceblue; */
+    width: 50%;
+    
+}
+
+#header-right nav{
+    margin-left: auto;
+}
+
+#header-right nav ul{
+    margin-right: auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.right-li a{
+    padding-left: 3.5rem;
+    text-decoration: none;
+}
+
+/* header styles ends */
